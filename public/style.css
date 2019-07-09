@@ -1,0 +1,89 @@
+*,*::after,*::before{
+   margin:0;
+   padding: 0;
+   box-sizing: inherit;
+}
+body{
+    font-size: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.comment{
+    display: block;
+    padding:2rem;
+    margin:2rem;
+}
+.comment__heading{
+    font-size: 4rem;
+    padding:1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.comment__list{
+    list-style: none;
+}
+.comment__list-item{
+    margin:2% 30%;
+    border:1px solid black;
+}
+.btn{
+    font-size: 2rem;
+    padding:2rem 6rem;
+    border-radius: 100px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 400;
+   
+}
+.btn-auth{
+    border: none;
+    color:inherit;
+    background-color: inherit;
+    font-size: inherit;
+    padding:1.5rem 2rem;
+    
+    align-content: center;
+}
+.btn-primary{
+    background-color: rgb(37, 107, 238);
+}
+.btn-secondary{
+    background-color: chocolate;
+}
+textarea{
+    resize: none;
+    padding:1rem;
+    font-size: 3rem;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.navbar li{
+    display: inline;
+    padding:1rem 2rem;
+}
+.navbar li:nth-child(3){
+    padding:0;
+    background-color: rgb(37, 107, 238);
+    color:white;
+}
+.navbar li:nth-child(3):hover{
+    background-color: rgb(0, 82, 235);
+    color:white;
+}
+.navbar li:hover{
+    background-color: rgb(255, 212, 156);
+}
+.navbar li:visited{
+    background-color: rgb(255, 191, 107);
+}
+.navbar li a{
+    text-decoration: none;
+}
